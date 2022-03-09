@@ -63,7 +63,7 @@ public class NewFrame extends JFrame implements ActionListener {
 		b5 = new JButton("Math Quiz");
 		b5.setBackground(Color.pink);
 		//button 6
-		b6 = new JButton("New button");
+		b6 = new JButton("Quotes");
 		b6.setBackground(Color.yellow);
 		//Labels
 		l1 = new JLabel("Takes A Full ScreenShot");
@@ -154,6 +154,10 @@ public class NewFrame extends JFrame implements ActionListener {
 		if(e.getSource() == b5)
 		{
 			new QuizMe();
+		}
+		if(e.getSource() == b6)
+		{
+			new Quotes();
 		}
 
 	}
